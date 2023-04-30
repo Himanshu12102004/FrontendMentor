@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: hsl(212, 45%, 89%);
   display: flex;
@@ -10,12 +14,14 @@ body {
 .qr {
   width: 300px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .bold {
   font-weight: 900;
   font-size: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: 01px;
+  line-height: 1.2;
+  padding-bottom: 12px;
 }
 .discription {
   color: hsl(220, 15%, 55%);
@@ -24,8 +30,12 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 img {
   height: 300px;
-  border-radius: 5px;
+  border-radius: 5px 5px 5px 5px;
+  padding-bottom: 20px;
 }
